@@ -46,6 +46,7 @@
 
 	.img {
 		text-align: center;
+		max-width: 100vw;
 	}
 
 </style>
