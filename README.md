@@ -1,1 +1,1 @@
-https://kazuaki-ito.github.io/joke-img 
+https://kazuaki-ito.github.io/joke-app/
