@@ -1,6 +1,8 @@
 <script>
 	import Image from './Image.svelte'
-	let inputValue = '集中力'
+	let inputValue1 = 'オラに'
+	let inputValue2 = '集中力'
+	let inputValue3 = 'を分けてくれ'
 </script>
 
 <svelte:head>
@@ -15,10 +17,16 @@
 </section>
 <div class="img">
 	<div>
-		何を分けてほしい？
-		<input bind:value={inputValue} type="text" maxlength="6"/>
+		何をたのむ？
+		<div><input bind:value={inputValue1} type="text" maxlength="6"/></div>
+		<div><input bind:value={inputValue2} type="text" maxlength="6"/></div>
+		<div><input bind:value={inputValue3} type="text" maxlength="6"/></div>
 	</div>
-	<Image msg={inputValue}/>
+	<Image
+			msg1={inputValue1}
+			msg2={inputValue2}
+			msg3={inputValue3}
+	/>
 </div>
 
 

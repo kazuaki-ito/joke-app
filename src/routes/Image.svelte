@@ -1,14 +1,16 @@
 <script lang="ts">
-    export let msg:string = '元気を'
+  export let msg1:string = '元気を'
+  export let msg2:string = '元気を'
+  export let msg3:string = '元気を'
 </script>
 <svg width="708" height="717" viewBox="0 0 708 717" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="image">
         <rect id="Rectangle 1" x="12" y="12" width="151" height="310" fill="white"/>
         <rect id="2a85265cc88daeb8fbf373fea1e8ca21 1" width="708" height="717" fill="url(#pattern0_2_1568)"/>
         <rect id="Rectangle 2" x="12" y="12" width="151" height="310" fill="white"/>
-        <text id="txtComment" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans JP" font-size="46" letter-spacing="0px"><tspan x="117" y="69.056">&#x30aa;</tspan><tspan x="117" y="115.056">&#x30e9;</tspan><tspan x="117" y="161.056">&#x306b;</tspan></text>
-        <text id="txtCommentCenter" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans JP" font-size="46" letter-spacing="0px" writing-mode="tb"><tspan x="93" y="30">{msg}</tspan></text>
-        <text id="txtComment_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans JP" font-size="46" letter-spacing="0px"><tspan x="25" y="69.056">&#x3092;</tspan><tspan x="25" y="115.056">&#x5206;</tspan><tspan x="25" y="161.056">&#x3051;</tspan><tspan x="25.6963" y="207.056">&#x3066;</tspan><tspan x="25" y="253.056">&#x304f;</tspan><tspan x="25" y="299.056">&#x308c;</tspan></text>
+        <text id="txtComment" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans JP" font-size="46" letter-spacing="0px" writing-mode="tb"><tspan x="145" y="30">{msg1}</tspan></text>
+        <text id="txtCommentCenter" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans JP" font-size="46" letter-spacing="0px" writing-mode="tb"><tspan x="93" y="30">{msg2}</tspan></text>
+        <text id="txtComment_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans JP" font-size="46" letter-spacing="0px" writing-mode="tb"><tspan x="40" y="30">{msg3}</tspan></text>
     </g>
     <defs>
         <pattern id="pattern0_2_1568" patternContentUnits="objectBoundingBox" width="1" height="1">
