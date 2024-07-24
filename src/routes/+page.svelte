@@ -16,7 +16,7 @@
 <div class="img">
 	<div>
 		何を分けてほしい？
-		<input bind:value={inputValue} type="text" maxlength="3"/>
+		<input bind:value={inputValue} type="text" maxlength="6"/>
 	</div>
 	<Image msg={inputValue}/>
 </div>
