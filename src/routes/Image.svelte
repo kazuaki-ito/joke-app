@@ -3,7 +3,7 @@
   export let msg2:string = '元気を'
   export let msg3:string = '元気を'
 </script>
-<svg width="708" height="717" viewBox="0 0 708 717" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100%" height="60vh" viewBox="0 0 708 717" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="image">
         <rect id="Rectangle 1" x="12" y="12" width="151" height="310" fill="white"/>
         <rect id="2a85265cc88daeb8fbf373fea1e8ca21 1" width="708" height="717" fill="url(#pattern0_2_1568)"/>
